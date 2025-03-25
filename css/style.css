@@ -41,16 +41,22 @@ ul {
   gap: 40px;
 }
 
-.nav-item {
+.nav-linkk {
+  position: relative;
   font-weight: 400;
   font-size: 14px;
   color: #150101;
-  padding: 31px 0;
+  line-height: 100%;
+  opacity: 0.6;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  transition: color 0.3s ease;
 }
 
-.active {
-  font-weight: bold;
+.nav-linkk:hover {
   color: #dc0048;
+  opacity: 1;
+  font-weight: bold;
 }
 
 .nav-link {
